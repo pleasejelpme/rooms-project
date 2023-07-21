@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block main %}
+<main class="layout layout--3">
+  <div class="container">
+    {% include "topics-component.html" %}
+
+    {% include "room_feed.html" %}
+
+    {% include "activity_feed.html" %}
+
+  </div>
+</main>
+{% endblock main %}
